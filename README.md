@@ -1,3 +1,18 @@
+Hello everyone,
+
+This repository contains my attempt at building a macOS application using this PJSIP library. I wanted to share my experience to help others who might be considering a similar path.
+
+While PJSIP is a powerful and flexible library, integrating it directly into a modern macOS application (especially with Swift/SwiftUI) presents significant challenges. It requires writing a custom C/Objective-C wrapper, which is a complex, time-consuming, and potentially expensive task that demands a high level of expertise.
+
+Based on my experience, here are a few alternatives you might consider for developing a SIP application on macOS:
+
+Ready-made SDKs (e.g., Linkphone SDK): While these can simplify development, I found that some, like Linkphone, have limited documentation, which can create its own set of problems. I would cautiously recommend this route.
+
+PortSIP SDK: In my opinion, this is an ideal choice for this task. I found its SDK to be straightforward to integrate, and writing functions with it was much simpler compared to other solutions.
+
+I hope sharing my journey and findings can help you make a more informed decision for your project.
+
+
 
 [![CI Linux](https://github.com/pjsip/pjproject/actions/workflows/ci-linux.yml/badge.svg)](https://github.com/pjsip/pjproject/actions/workflows/ci-linux.yml)
 [![CI Mac](https://github.com/pjsip/pjproject/actions/workflows/ci-mac.yml/badge.svg)](https://github.com/pjsip/pjproject/actions/workflows/ci-mac.yml)
