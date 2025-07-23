@@ -1,6 +1,8 @@
 Hello everyone,
 
-This repository contains my attempt at building a macOS application using this PJSIP library. I wanted to share my experience to help others who might be considering a similar path.
+This repository contains my attempt at building a macOS application using the PJSIP library. I wanted to share my experience to help others who might be considering a similar path.
+
+Inside this repository, you will find the PJSIP library provided in several formats: as a universal binary for macOS, and as separate libraries pre-compiled for both Apple Silicon and Intel architectures.
 
 While PJSIP is a powerful and flexible library, integrating it directly into a modern macOS application (especially with Swift/SwiftUI) presents significant challenges. It requires writing a custom C/Objective-C wrapper, which is a complex, time-consuming, and potentially expensive task that demands a high level of expertise.
 
@@ -11,6 +13,9 @@ Ready-made SDKs (e.g., Linkphone SDK): While these can simplify development, I f
 PortSIP SDK: In my opinion, this is an ideal choice for this task. I found its SDK to be straightforward to integrate, and writing functions with it was much simpler compared to other solutions.
 
 I hope sharing my journey and findings can help you make a more informed decision for your project.
+
+
+
 
 
 
